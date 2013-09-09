@@ -125,7 +125,7 @@ if(ob_player1.x&gt;704)
 {
     if(global.lastSpawnP1=1)
     {
-    ob_player1.y = random_range(32,224);
+    ob_player1.y = random_range(64,224);
     motion_set(180,4);
     global.lastSpawnP1=2;
     global.canFireP1=1;
@@ -138,7 +138,7 @@ if(ob_player1.x&lt;-64)
 {
     if(global.lastSpawnP1=2)
     {
-    ob_player1.y = random_range(32,224);
+    ob_player1.y = random_range(64,224);
     motion_set(0,4);
     global.lastSpawnP1=1;
     global.canFireP1=1;
@@ -170,7 +170,7 @@ if(ob_player1.x&lt;-64)
 {
 action_create_object(ob_bulletP1,ob_player1.x+16,ob_player1.y+32);
 global.canFireP1=0
-alarm[0]=45
+alarm[0]=35
 }
 
 </string>

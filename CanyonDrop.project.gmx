@@ -8,16 +8,23 @@
   <sprites name="sprites">
     <sprite>sprites\sp_floor</sprite>
     <sprite>sprites\sp_player1</sprite>
+    <sprite>sprites\sp_player2</sprite>
     <sprite>sprites\sp_bulletP1</sprite>
+    <sprite>sprites\sp_bulletP2</sprite>
     <sprite>sprites\sp_block</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\ob_floor</object>
     <object>objects\ob_player1</object>
+    <object>objects\ob_player2</object>
     <object>objects\ob_Controller</object>
     <object>objects\ob_bulletP1</object>
+    <object>objects\ob_bulletP2</object>
     <object>objects\ob_scoreController</object>
     <object>objects\ob_block1</object>
     <object>objects\ob_block2</object>
